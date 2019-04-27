@@ -26,10 +26,19 @@ header{
 	justify-content: flex-start;
 	align-items: baseline;
 	align-content: stretch;
+	border: 1px solid #0564ff;
 }
-.paragraf{
-	font-weight: bold;
+.menu_btn{
+	display: inline-block;
+	padding: 5px;
+	border:1px solid #0564ff;
+	background-color: #b2ffff;
+	border-radius: 5px;
 }
-.text{
-	font-weight: normal;
+.menu_btn:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+.menu_btn >a{
+	text-decoration: none;
 }
