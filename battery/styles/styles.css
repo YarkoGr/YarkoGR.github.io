@@ -1,0 +1,31 @@
+*{
+	padding:0;
+	margin:0;  
+}
+img {
+display: block;	
+}
+.battery1, .battery2, .battery3{
+	width: 600px;
+	height: 150px;
+	border: 5px solid black;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.battery1:before{
+	content: "";
+	display: block;
+	width: 200px;
+	height: 150px;
+	background-color: red;
+}
+.battery2:before{
+	content: "";
+	display: block;
+	width: 400px;
+	height: 150px;
+	background-color: yellow;
+}
+.battery3{
+	background-color: green;
+}
