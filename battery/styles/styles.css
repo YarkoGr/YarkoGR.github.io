@@ -11,13 +11,25 @@ display: block;
 	border: 5px solid black;
 	margin-top: 50px;
 	margin-left: 50px;
+	display: inline-block;
 }
 .battery1:before{
 	content: "";
 	display: block;
-	width: 200px;
+	width: 30%;
 	height: 150px;
 	background-color: red;
+}
+.battery1:after{
+	content: "";
+	width: 20px;
+	height: 40px;
+	background-color: black;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 95px;
+	left: 20px;
 }
 .battery2:before{
 	content: "";
@@ -26,6 +38,28 @@ display: block;
 	height: 150px;
 	background-color: yellow;
 }
+.battery2:after{
+	content: "";
+	width: 20px;
+	height: 40px;
+	background-color: black;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 95px;
+	left: 20px;
+}
 .battery3{
 	background-color: green;
+}
+.battery3:after{
+	content: "";
+	width: 20px;
+	height: 40px;
+	background-color: black;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: -50px;
+	left: 20px;
 }
