@@ -1,0 +1,122 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+/* General */
+@import url(reset.css);
+
+/* Header */
+header{
+
+}
+header{
+	height: 300px;
+	background-image: url(../img/bg-01.jpg);
+	background-repeat: no-repeat;
+	background-position: -500px -520px;
+}
+.menu{
+	height: 50px;
+	padding-left: 150px;
+	background-color: rgba(0,0,0,.5);
+}
+li{
+	display: inline-block;
+	height: 50px;
+	line-height: 51px;
+
+}
+li a{
+	padding-left: 20px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+h1{
+	font-family: 'Metal Mania';
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+}
+header a{
+	width: 200px;
+	text-align: center;
+	margin-left: 40%;
+	color: #fff;
+}
+.button{
+display: inline-block;
+padding: 5px;
+text-decoration: none;
+text-transform: uppercase;
+background: linear-gradient(135deg, #de0203 0%,#fe356d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de0203', endColorstr='#fe356d',GradientType=1 );
+}
+	
+/* Tour */
+#tour, #gallery{
+	background-color: #373737;
+	background-image: url(../img/bg.png);
+	color: #fff;
+	text-align: center;
+
+}
+h2{
+	padding: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.tour-card{
+	width: 150px;
+	height: 150px;
+	padding-top: 20px;
+	display: inline-block;
+	margin-right: 15px;
+	text-align: left;
+}
+.tour-card a{
+	color: #fff;
+	position: relative;
+	bottom: -40px;
+	left: 20px;
+}
+.madrid{
+	background-image: url(../img/tour/madrid.jpg);
+	background-position: 158px 232px;
+}
+.turin{
+	background-image: url(../img/tour/turin.jpg);
+	background-position: 153px 200px;
+}
+.hamburg{
+	background-image: url(../img/tour/hamburg.jpg);
+	background-position: -31px 234px;
+}
+.krakow{
+	background-image: url(../img/tour/krakow.jpg);
+	background-position: -34px 184px;
+}
+
+
+/* Gallery */
+ .photo{
+ 	width: 200px;
+ 	height: 200px;
+ 	padding-right: 100px;
+	display: inline-block;
+}
+
+
+/* Subscribe */
+#subscribe{
+	background-image: url(../img/bg-02.jpg);
+	background-position: 20px 20px;
+}
+
+
+/* Footer */
+
+
