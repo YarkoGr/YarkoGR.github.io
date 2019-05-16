@@ -1,0 +1,108 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;  
+}
+img {
+display: block;	
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.wrapper{
+	padding-top: 20px;
+	padding-left: 50px;
+	background-color: #382d2d;
+	height: 530px;
+	width: 1054px;
+	display: inline-block;
+}
+.w_wrapper{
+	width: 940px;
+	height: 390px;
+	display: flex;
+	background-color: #fff;
+}
+.wrapper:after{
+	content: "Усе меню";
+	width: 176px;
+	height: 50px;
+	color: #fff;
+	background-color: black;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 24px;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	left: 730px;
+	top: 20px;
+	}
+.block_left{ 
+	width: 330px;
+	background-image: url(../img/burger1.jpg);
+	background-size: cover;
+	background-position: -55px 0px;
+}
+.left_text{
+	padding-top: 50px;	
+	width: 340px;
+	height: 210px;
+	background-color: #000;
+	position: relative;
+	left: -25px;
+	top: 140px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.block_right{
+	width: 610px;
+	height: 390px;
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+.moment{
+	padding-top: 40px;
+	height: 100px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+.price{
+	min-height: 10px;
+	padding-left: 50px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.name_price{
+	height: 87px;
+	width: 200px;
+	border-bottom: 2px solid lightgrey;
+	text-align: center;
+	padding-top: 30px;
+}
+.name_price:after{
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: lightgrey;
+	display: inline-block;
+	transform: rotate(45deg);
+	position: relative;
+	top: 10px;
+}
+.color_grey{
+	color: gray;
+	font-weight: bold;
+}
+
+
+
