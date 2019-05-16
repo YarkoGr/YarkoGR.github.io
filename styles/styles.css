@@ -28,17 +28,18 @@ header{
 	align-content: stretch;
 	border: 1px solid #0564ff;
 }
-.menu_btn{
-	display: inline-block;
+li{
+	float: left;
 	padding: 5px;
 	border:1px solid #0564ff;
 	background-color: #b2ffff;
 	border-radius: 5px;
+	list-style: none;
 }
-.menu_btn:hover{
+a{
+	text-decoration: none;
+}
+li:hover{
 	transform: scale(1.2);
 	cursor: pointer;
-}
-.menu_btn >a{
-	text-decoration: none;
 }
