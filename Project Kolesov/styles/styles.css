@@ -1,0 +1,115 @@
+:root {
+--main-color:#023875;
+}
+@import url(reset.css)
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Arial', sans-serif;  
+}
+.wrapper:before{
+	content: "";
+	display: block;
+	height: 43px;
+	background-color: var(--main-color);
+}
+header{
+	text-align: center;
+	color: var(--main-color);
+	padding-bottom: 20px;
+}
+main{
+	padding-bottom: 20px;
+}
+span{
+	display: block;
+}
+.logo_text1, .main__text1, .logo_tel{
+	font-size: 24px;
+}
+.logo_text2{
+	font-size: 48px;
+}
+.logo_text3{
+	font-size: 13px;
+}
+.hour_24, .logo_text3{
+	color: #000;
+}
+.background{
+	display: none;	
+	height: 200px;
+	background-image: url(../img/town.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main__text1{
+	color: var(--main-color);
+}
+aside{
+	text-align: center;
+}
+.btn1{
+	height: 45px;
+	width: 300px;
+	background-color: var(--main-color);
+	line-height: 45px;
+	color: #fff;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+li{
+	list-style: none;
+	padding-top: 10px;
+}
+a{
+	color: var(--main-color);
+}
+footer{
+	height: 45px;
+	background-color: var(--main-color);
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+}
+@media screen and (min-width: 960px){
+	body{
+		background-image: url(../img/bodyBG.png);
+		background-size: contain;
+	}
+	.wrapper{
+		width: 960px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.background{
+		display: block;
+	}
+	header{
+		display: flex;
+	}
+	header span{
+		display: block;
+	}
+	.header__wrap{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.right{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.main_aside{
+		display: flex;
+		padding-top: 20px;
+	}
+	aside{
+		text-align: left;
+	}
+	.btn1{
+		text-align: center;
+	}
+}
