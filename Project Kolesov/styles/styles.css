@@ -1,7 +1,7 @@
 :root {
 --main-color:#023875;
 }
-@import url(reset.css)
+/*@import url(reset.css);*/
 *{
 	padding:0;
 	margin:0;
@@ -19,10 +19,19 @@ header{
 	padding-bottom: 20px;
 }
 main{
-	padding-bottom: 20px;
+	padding: 20px 0;
 }
 span{
 	display: block;
+	padding: 5px 0;
+}
+header, .main_aside{
+	padding:0 15px;
+}
+.logo_text{
+	width: 270px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .logo_text1, .main__text1, .logo_tel{
 	font-size: 24px;
@@ -46,14 +55,21 @@ span{
 .main__text1{
 	color: var(--main-color);
 }
+.main_aside{
+	display: flex;
+	flex-direction: column;
+}
 aside{
 	text-align: center;
+	order: -1;
+}
+aside span{
+	padding-top: 10px;
 }
 .btn1{
-	height: 45px;
 	width: 300px;
 	background-color: var(--main-color);
-	line-height: 45px;
+	padding: 15px;
 	color: #fff;
 	font-size: 18px;
 	margin-left: auto;
@@ -100,14 +116,15 @@ footer{
 	.right{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		padding-top: 20px;
 	}
 	.main_aside{
-		display: flex;
+		flex-direction: row;
 		padding-top: 20px;
 	}
 	aside{
 		text-align: left;
+		order: 0;
 	}
 	.btn1{
 		text-align: center;
