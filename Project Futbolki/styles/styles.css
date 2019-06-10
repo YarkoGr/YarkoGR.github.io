@@ -129,3 +129,12 @@ a{
 	background-color: #000;
 	margin: 0 auto;
 }
+.midle_right a{
+	padding-left: 30px
+}
+.basket{
+	background-position: -28px -151px;
+}
+.heart{
+	background-position: -24px -190px;
+}
