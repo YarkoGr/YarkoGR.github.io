@@ -387,4 +387,5 @@ footer{
 }
 .numbers_phone{
 	font-size: 20px;
+	display: flex;
 }
