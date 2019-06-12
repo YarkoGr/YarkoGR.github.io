@@ -378,6 +378,16 @@ margin: 0 auto;
 	height: 75px;
 	margin: 0 auto;
 }
+.numbers_phone{
+	font-size: 20px;
+}
+.bottom_menu span, .bottom_menu a{
+	display: block;
+}
+.goods, .contakts_bottom_menu{
+	padding: 20px 0;
+}
+
 footer{
 	height: 48px;
 	background-color: var(--main-color);
@@ -385,7 +395,4 @@ footer{
 	color: #fff;
 	line-height: 48px;
 }
-.numbers_phone{
-	font-size: 20px;
-	display: flex;
-}
+
