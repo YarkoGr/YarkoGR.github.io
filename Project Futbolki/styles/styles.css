@@ -86,7 +86,7 @@ a{
 .contakts{
 	display: flex;
 	justify-content: space-around;
-	padding-top: 15px;
+	padding: 15px 0;
 }
 .contakts a{
 	padding-left: 20px;
@@ -139,13 +139,14 @@ a{
 	margin: 0 auto;
 }
 .midle_right a{
-	padding-left: 30px
+	padding-left: 30px;
+	font-size: 12px;
 }
 .basket{
-	background-position: -28px -151px;
+	background-position: -28px -153px;
 }
 .heart{
-	background-position: -24px -190px;
+	background-position: -24px -193px;
 }
 .span1 a{
 	padding: 10px;
@@ -167,10 +168,26 @@ ul li{
 }
 .span2{
 	padding-top: 15px;
+	font-size: 14px;
+	font-weight: bold;
 }
 main{
 	border-top: 1px solid #fbeca7;
 	text-align: center;
+}
+.bg_vushuvanka{
+	height: 139px;
+	background-image: url(../img/Vushuvanka.png);
+	background-repeat: no-repeat;
+	opacity: 0.2;
+	position: relative;
+	top: 112px;
+	margin-top: -112px;
+	z-index: -1;
+}
+.slide{
+	background-color: #fff;
+	border: 2px solid #f4cf23;
 }
 .slide_title{
 	font-size: 32px;
@@ -194,6 +211,7 @@ main{
 .slide_action a{
 	font-size: 14px;
 	font-style: italic;
+	font-weight: bold;
 }
 .slide_action{
 	padding: 10px 0;
@@ -208,6 +226,9 @@ main{
 	line-height: 50px;
 	font-size: 14px;
 	font-weight: bold;
+}
+.hot_offer{
+	background-color: #fff;
 }
 .hot_offer{
 	width: 235px;
@@ -284,7 +305,7 @@ main{
 	width: 55px;
 	height: 2px;
 	background-color: #000;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 .second_title a{
 	display: block;
@@ -300,6 +321,7 @@ main{
 }
 .fb_slider_offer_item{
 	color: var(--main-color);
+	text-decoration: none;
 }
 .fb_slider_basket{
 	width: 100px;
@@ -315,6 +337,12 @@ main{
 	display: block;
 }
 .fb_slider_offer_price{
+	padding: 10px 0;
+}
+.one_klik{
+	display: block;
+	text-decoration: underline;
+	font-style: italic;
 	padding: 10px 0;
 }
 .third_title a{
@@ -369,6 +397,9 @@ margin: 0 auto;
 	font-weight: bold;
 	color: var(--main-color);
 }
+.coments img{
+	margin: 0 auto;
+}
 .coments_name{
 	font-weight: bold;
 	font-size: 14px;
@@ -383,11 +414,11 @@ margin: 0 auto;
 }
 .bottom_menu span, .bottom_menu a{
 	display: block;
+	padding-top: 10px;
 }
 .goods, .contakts_bottom_menu{
 	padding: 20px 0;
 }
-
 footer{
 	height: 48px;
 	background-color: var(--main-color);
@@ -395,4 +426,135 @@ footer{
 	color: #fff;
 	line-height: 48px;
 }
-
+footer a{
+	color: #fff;
+}
+@media screen and (min-width: 980px){
+	.col-3-4{
+		width: calc(100% / 12 * 9 - 30px);
+	}
+	.col-1-4{
+		width: calc(100% / 12 * 3 - 30px);
+	}
+	.col-1-6{
+		width: calc(100% / 12 * 2 - 30px);
+	}
+	.col-1-2{
+		width: calc(100% / 12 * 6 - 30px);
+	}
+	.col-1-3{
+		width: calc(100% / 12 * 4 - 30px);
+	}
+	.row{
+		display: flex;
+	}
+	.row_top{
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 20px;
+	}
+	.social_networks{
+		padding-top: 0;
+	}
+	.contakts{
+		padding-right: 10px;
+	}
+	.midle_row{
+		display: flex;
+		justify-content: space-between;
+	}
+	.midle_left{
+		order: -1;
+		text-align: left;
+	}
+	.midle_right{
+		order: 1;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: flex-end;
+		align-content: stretch;
+	}
+	.bottom_row{
+		flex-direction: column;
+	}
+	.main_row{
+		height: 310px;
+	}
+	.slide_img img{
+		display: inline-block;
+	}
+	.slide{
+		margin-right: 10px;
+		display: flex;
+	}
+	.slide_wrap{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: flex-start;
+		align-content: stretch;
+		text-align: left;
+		padding-left: 70px;
+	}
+	.action_percent{
+		text-align: center;
+	}
+	.hot_offer_wrap{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.hot_offer{
+		margin: 0 0;
+	}
+	.slide_title{
+		padding-top: 40px;
+	}
+	.fb_slider{
+		padding: 20px 0;
+	}
+	.fb_slider_offer:hover{
+		border: 2px solid var(--main-color);
+	}
+	.third_title{
+		padding: 20px 0;
+	}
+	.third_title span{
+		padding: 50px 0;
+	}
+	.row_action{
+		margin: 0 34px;
+		align-items: center;
+	}
+	.action_text{
+		text-align: left;
+	}
+	.news_coments_title{
+		border-bottom: 1px solid #b2def8;
+	}
+	.news{
+		padding-right: 30px;
+	}
+	.news_coments_text{
+		text-align: left;
+	}
+	.coments_wrap{
+		display: flex;
+		align-items: center;
+	}
+	.coments_wrap img{
+		width: 73px;
+		height: 73px;
+	}
+	.coments_wrap .news_coments_text{
+		padding-left: 15px;
+	}
+	.bottom_menu{
+		justify-content: space-between;
+		align-items: center;
+		text-align: left;
+	}
+}
