@@ -9,7 +9,7 @@
 	font-family: 'Arial', sans-serif;
 }
 img{
-display: block;	
+	display: block;
 }
 header{
 	border-top: 6px solid #f8e27b;
@@ -185,6 +185,14 @@ main{
 	margin-top: -112px;
 	z-index: -1;
 }
+.bg_vushuvanka_rotate{
+	transform: rotate(180deg);
+	height: 139px;
+	background-image: url(../img/Vushuvanka.png);
+	background-repeat: no-repeat;
+	opacity: 0.2;
+	transform: rotate(180deg);
+}
 .slide{
 	background-color: #fff;
 	border: 2px solid #f4cf23;
@@ -339,6 +347,18 @@ main{
 .fb_slider_offer_price{
 	padding: 10px 0;
 }
+.fb_slider img{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.action{
+	position: relative;
+}
+.position{
+	position: absolute;
+	right: 8px;
+}
 .one_klik{
 	display: block;
 	text-decoration: underline;
@@ -429,7 +449,7 @@ footer{
 footer a{
 	color: #fff;
 }
-@media screen and (min-width: 980px){
+@media screen and (min-width: 960px){
 	.col-3-4{
 		width: calc(100% / 12 * 9 - 30px);
 	}
@@ -488,7 +508,28 @@ footer a{
 	.slide{
 		margin-right: 10px;
 		display: flex;
+		position: relative;
 	}
+	.arow{
+		position: absolute;
+		width: 37px;
+		height: 37px;
+		border-radius: 50%;
+		background-color: #fae851;
+		background-image: url(../img/arow.png);
+		background-repeat: no-repeat;
+		background-size: auto;
+		background-position: 13px 8px;
+	}
+	.position_arow_left{
+		top: 135px;
+		left: 8px;
+		transform: rotate(180deg);
+	}
+	.position_arow_right{
+		top: 135px;
+		right: 8px;
+	} 
 	.slide_wrap{
 		display: flex;
 		flex-direction: column;
@@ -515,6 +556,7 @@ footer a{
 	}
 	.fb_slider{
 		padding: 20px 0;
+		position: relative;
 	}
 	.fb_slider_offer:hover{
 		border: 2px solid var(--main-color);
