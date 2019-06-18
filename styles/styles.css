@@ -6,13 +6,8 @@ body{
 header{
 	border-bottom: 2px solid #2109f7;
 }
-li{
-	border-radius: 10px;
-	text-align: center;
-	margin: 5px 5px;
-}
-li:hover{
-	transform: scale(1.2);
+a:hover{
+	transform: scale(1.1);
 	cursor: pointer;
 }
 .row_header{
@@ -25,5 +20,6 @@ text-align: center;
 	align-items: center;
 }
 .list-group{
+	text-align: center;
 	align-items: center;
 }
