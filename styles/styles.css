@@ -3,12 +3,11 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+header{
+	border-bottom: 2px solid #2109f7;
+}
 li{
-	padding: 5px;
-	border:1px solid #0564ff;
-	background-color: #b2ffff;
-	border-radius: 5px;
-	list-style: none;
+	border-radius: 10px;
 	text-align: center;
 	margin: 5px 5px;
 }
@@ -18,9 +17,13 @@ li:hover{
 }
 .row_header{
 align-items: center;
+text-align: center;
 }
 .personal_data{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+}
+.list-group{
 	align-items: center;
 }
