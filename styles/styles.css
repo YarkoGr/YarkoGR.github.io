@@ -13,6 +13,7 @@ a:hover{
 .row_header{
 align-items: center;
 text-align: center;
+color: #03a8ff;
 }
 .personal_data{
 	display: flex;
