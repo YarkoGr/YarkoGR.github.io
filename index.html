@@ -5,31 +5,154 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta charset="utf-8">
 		<title>YarkoGR</title>
-		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
-	<header>
-		<div class="container-fluid">
-			<div class="row row_header">
-				<div class="col">
-				<h1>Ярослав Васильович Пасько</h1>
-			</div>
-			<div class="col">
-				<img src="img/my foto.jpg" alt="my foto">
-			</div>	
-					<div class="col personal_data">
-						<span>25.06.1981р.н.</span>
-						<a href="#">yaroslapasko81@gmail.com</a>
+		<nav class="navbar navbar-expand-lg fixed-top ">
+			<a class="navbar-brand" href="#">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+		<div class="collapse navbar-collapse " id="navbarSupportedContent">
+			<ul class="navbar-nav mr-4">
+				<li class="nav-item"><a class="nav-link" data-value="about" href="#">About</a>
+				</li>
+				<li class="nav-item"><a class="nav-link " data-value="portfolio"href="#">Portfolio</a>
+				</li>
+				<li class="nav-item"><a class="nav-link " data-value="blog" href="#">Blog</a>
+				</li>
+				<li class="nav-item"><a class="nav-link " data-value="team" href="#">Team</a>
+				</li>
+				<li class="nav-item"><a class="nav-link " data-value="contact" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+		</nav>
+	<header class="header">
+		<div class="overlay"></div>
+		<div class="container">
+		<div class="description">
+		   <h1>Привіт. Вітаю тебе на моєму першому сайті.
+			    <p>сайт створено під час моєго навчання в комп'ютерній академії "Circle", за допомогою Bootsrap.....</p>   
+				<button class="btn btn-outline-secondary btn-lg">Let's Go</button>
+			</h1>  
+		</div>
+		</div>
+	</header>
+		<div class="container">
+			<div class="row about">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="images/my foto.jpg" class="img-fluid">
+					<span class="text-justify">Web Developer</span>
+	 			</div>
+	 			<div class="col-lg-8 col-md-8 col-sm-12 desc">
+     				<h3>YarkoGR</h3>
+					<p>25.06.1981р.н.
 						<a href="#tel:">+38(099)322-80-10</a>
+						<a href="#">yaroslapasko81@gmail.com</a>
+					</p>
+				</div>
+  			</div>
+		</div>
+		<div class="portfolio">
+			<span>Portfolio</span>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="Project Futbolki/index.html"><img src="images/portfolio/futbolki.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="google/index.html"><img src="images/portfolio/google logo.jpg" class="img-fluid"></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="edit resume/index.html"><img src="images/portfolio/resume.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="battery/index.html"><img src="images/portfolio/battery.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="metal band/index.html"><img src="images/portfolio/metal.jpg" class="img-fluid"></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="burger/index.html"><img src="images/portfolio/burger.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="Project Kolesov/index.html"><img src="images/portfolio/kolesov.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="Landing Page/index.html"><img src="images/portfolio/landing.png" class="img-fluid"></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<a href="#"><img src="images/portfolio/to bee.png" class="img-fluid"></a>
 					</div>
 				</div>
 			</div>
-	</header>
-	<main>
-		<div class="container">
+		</div>
+		<!-- Posts section -->
+<div class="blog">
+	<div class="container">
+		 <span class="text-center">Blog</span>
+		  <div class="row">
+		   <div class="col-md-4 col-lg-4 col-sm-12">
+		    <div class="card">
+		     <div class="card-img">
+		      <img src="images/posts/polit.jpg" class="img-fluid">
+		     </div>
+		     
+		     <div class="card-body">
+		     <h4 class="card-title">Post Title</h4>
+		      <p class="card-text">
+		       
+		       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		      </p>
+		     </div>
+		     <div class="card-footer">
+		      <a href="" class="card-link">Read more</a>
+		     </div>
+		    </div>
+		   </div>
+		   <div class="col-md-4 col-lg-4 col-sm-12">
+		    <div class="card">
+		     <div class="card-img">
+		      <img src="images/posts/images.jpg" class="img-fluid">
+		     </div>
+		     
+		     <div class="card-body">
+		        <h4 class="card-title">Post Title</h4>
+		      <p class="card-text">
+		       
+		       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		      </p>
+		     </div>
+		     <div class="card-footer">
+		      <a href="" class="card-link">Read more</a>
+		     </div>
+		    </div>
+		   </div>
+		   <div class="col-md-4 col-lg-4 col-sm-12">
+		    <div class="card">
+		     <div class="card-img">
+		      <img src="images/posts/imag2.jpg" class="img-fluid">
+		     </div>
+		     
+		     <div class="card-body">
+		     <h4 class="card-title">Post Title</h4>
+		      <p class="card-text">
+		       
+		       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		      </p>
+		     </div>
+		     <div class="card-footer">
+		      <a href="" class="card-link">Read more</a>
+		     </div>
+		    </div>
+		   </div>
+		  </div>
+	</div>
+</div>
 			<nav>
 				<ul class="list-group">
-					<a class="nav-link col-md-4 list-group-item list-group-item-primary" href="Project Futbolki/index.html">Project Futbolki</a>
+					<a href="Project Futbolki/index.html">Project Futbolki</a>
 					<a class="nav-link col-md-4 list-group-item list-group-item-primary" href="google/index.html">Page Google</a>
 					<a class="nav-link col-md-4 list-group-item list-group-item-primary" href="edit resume/index.html">My resume</a>
 					<a class="nav-link col-md-4 list-group-item list-group-item-primary" href="battery/index.html">Battery task</a>
@@ -40,6 +163,6 @@
 				</ul>
 			</nav>
 		</div>
-	</main>		
+	<script type="text/javascript" src='js/main.js'></script>	
 	</body>
 </html>
