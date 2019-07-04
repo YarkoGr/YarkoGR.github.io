@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 :root {
 --main-color:#03a8ff;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
 }
 body{
 	background: url(../images/bg1.png);
@@ -89,7 +93,6 @@ a:hover{
 	line-height:2;
 }
 .portfolio{
-	
 	margin: 4em 0;
     position: relative;    
 }
@@ -102,4 +105,87 @@ a:hover{
 	color: var(--main-color);
 	font-size: 1.5em;
 	text-align: center;
+}
+.blog{
+ margin: 4em 0;
+ position: relative; 
+}
+.blog .card{
+ box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+ width: 100%;
+ height: 12em;
+}
+.blog .card-title{
+ color:#F97300;
+  
+}
+.blog .card-body{
+ padding: 1em;
+}
+.team{
+ margin: 4em 0;
+ position: relative;  
+}
+.team h1{
+ color:#F97300;
+ margin: 2em; 
+}
+.team .item{
+ position: relative;
+}
+.team .des{
+ background: #F97300;
+ color: #fff;
+ text-align: center;
+ border-bottom-left-radius: 93%;
+ transition:.3s ease-in-out;
+}
+.team{
+ margin: 4em 0;
+ position: relative;  
+}
+.team h1{
+ color:#F97300;
+ margin: 2em; 
+}
+.team .item{
+ position: relative;
+}
+.team .des{
+ background: #F97300;
+ color: #fff;
+ text-align: center;
+ border-bottom-left-radius: 93%;
+ transition:.3s ease-in-out;
+}
+.team .item:hover .des{
+ height: 100%;
+ background:#f973007d;
+ position: absolute;
+ width: 89%;
+ padding: 5em;
+ top: 0;
+ border-bottom-left-radius: 0;
+}
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #F97300; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #F97300;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
 }
