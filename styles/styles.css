@@ -204,12 +204,6 @@ h2{
 .strite_name_prof{
 	color: #c714d5;
 }
-.portfolio_list li{
-	list-style: none;
-	padding: 15px 20px 15px 0px; 
-	font-size: 1.2em;
-	text-align: center;
-}
 .portfolio_photo{
 	display: flex;
 	flex-direction: row;
@@ -224,4 +218,23 @@ h2{
 }
 .portfolio_photo a:hover{
 	transform: scale(1.1);
+}
+.experience_fluid{
+	margin-top: 100px;
+}
+.experience_wrap{
+	color: white;
+}
+.experience_wrap span{
+	display: block;
+}
+.experience_wrap .row{
+	padding: 30px 0;
+}
+.text_right{
+	text-align: right;
+	border-right: 10px solid white;
+}
+.activity{
+	font-size: 25px;
 }
