@@ -1,202 +1,216 @@
 <!DOCTYPE html>
 <html lang="uk">
 	<head>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta charset="utf-8">
-		<title>YarkoGR</title>
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<title>Yarko Pasko</title>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg fixed-top ">
-			<a class="navbar-brand" href="#">Home</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-		<div class="collapse navbar-collapse " id="navbarSupportedContent">
-			<ul class="navbar-nav mr-4">
-				<li class="nav-item"><a class="nav-link" data-value="about" href="#">About</a>
-				</li>
-				<li class="nav-item"><a class="nav-link " data-value="portfolio"href="#">Portfolio</a>
-				</li>
-				<li class="nav-item"><a class="nav-link " data-value="blog" href="#">Blog</a>
-				</li>
-				<li class="nav-item"><a class="nav-link " data-value="team" href="#">Team</a>
-				</li>
-				<li class="nav-item"><a class="nav-link " data-value="contact" href="#">Contact</a>
-				</li>
-			</ul>
+		<div class="container-fluid navMy-bar fixed-top">
+			<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+				<a class="navbar-brand" href="#">Home</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#our-services">My services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#testimonials">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#experience">Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#blog">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+			</nav>
 		</div>
-		</nav>
-	<header class="header">
-		<div class="overlay"></div>
-		<div class="container">
-		<div class="description">
-		   <h1>Привіт. Вітаю тебе на моєму першому сайті.
-			    <p>сайт створено під час моєго навчання в комп'ютерній академії "Circle", за допомогою Bootsrap.....</p>   
-				<button class="btn btn-outline-secondary btn-lg">Let's Go</button>
-			</h1>  
+	<header>	
+		<div class="container-fluid header_hello">
+			<div class="row">
+				<span class="sp_top col-lg-12">Hello, i am</span>
+				<h1 class="col-lg-12">Yaroslav Pasko</h1>
+				<span class="sp_bottom col-lg-12">I do not have enough experience yet, but ...</span>
+				<a  class="contact bg-gradietn">Contact me</a>	
+			</div>
+			<div class="contactAnim bg-gradietn">
+			<a href="tel:+380993228010">+380993228010</a>
+			<a href="tel:+380965951044">+380965951044</a>
+			<a href="mailto:yaroslavpasko81@gmail.com">yaroslavpasko81@gmail.com</a>
 		</div>
 		</div>
 	</header>
+		<div class="container about_me">
+			<div class="row">
+				<div class="row about_me_text col-xsm-12 col-md-6 col-lg-4">
+					<div class="my_name col-md-12">Yaroslav Pasko</div>
+					<div class="col-md-12">FrontEnd Developer</div>
+					<div class="col">Я не чарівник, я тільки вчуся і ця сторінка, це мій перший самостійний проект, де я використовую верстку за допомогою Bootstrap, та JQuery.</div>
+				</div>
+				<div class="my-foto col-xsm-12 col-md-6 col-lg-4">
+					<img src="img/my-foto.jpg">
+				</div>
+				<div class="skill col-xsm-12 col-md-12 col-lg-4">
+					<span>Java Script 10%</span>
+					<div class="progress">						
+						<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>HTML 95%</span>
+					<div class="progress">						
+						<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 95%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>CSS 80%</span>
+					<div class="progress">						
+						<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>JQuery 20%</span>
+					<div class="progress">						
+						<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid personal-data-wrap">
+			<div class="row">
+				<div class="personal-data col-sm-12 col-md-4">
+					<div class="sprite sprite_sm bg-tel"></div>
+					<div class="personal_title">
+						<h4>Phone Number</h4>
+						<div class="personal_info">
+							<a href="tel:+380993228010">+380993228010</a>
+							<a href="tel:+380965951044">+380965951044</a>
+						</div>
+					</div>
+					
+				</div>
+				<div class="personal-data col-sm-12 col-md-4">
+					<div class="sprite sprite_sm bg-addr"></div>
+					<div class="personal_title">
+						<h4>Addres</h4>
+						<div class="personal_info">Ukraine, Ivano-Frankivsk, Mazepu str. 14
+						</div>
+					</div>
+				</div>
+				<div class="personal-data col-sm-12 col-md-4">
+					<div class="sprite sprite_sm bg-email"></div>
+					<div class="personal_title">
+						<h4>Email Addres</h4>
+						<div class="personal_info">
+							<a href="mailto:yaroslavpasko81@gmail.com">yaroslavpasko81@gmail.com</a>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="container">
-			<div class="row about">
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<img src="images/my foto.jpg" class="img-fluid">
-					<span class="text-justify">Web Developer</span>
-	 			</div>
-	 			<div class="col-lg-8 col-md-8 col-sm-12 desc">
-     				<h3>YarkoGR</h3>
-					<p>25.06.1981р.н.
-						<a href="#tel:">+38(099)322-80-10</a>
-						<a href="#">yaroslapasko81@gmail.com</a>
-					</p>
-				</div>
-  			</div>
-		</div>
-		<div class="container portfolio">
-			<span>Portfolio</span>
-			
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="Project Futbolki/index.html"><img src="images/portfolio/futbolki.png" class="img-fluid"></a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="google/index.html"><img src="images/portfolio/google logo.jpg" class="img-fluid"></a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="edit resume/index.html"><img src="images/portfolio/resume.png" class="img-fluid"></a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="battery/index.html"><img src="images/portfolio/battery.png" class="img-fluid"></a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="metal band/index.html"><img src="images/portfolio/metal.jpg" class="img-fluid"></a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="burger/index.html"><img src="images/portfolio/burger.png" class="img-fluid"></a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="Project Kolesov/index.html"><img src="images/portfolio/kolesov.png" class="img-fluid"></a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="Landing Page/index.html"><img src="images/portfolio/landing.png" class="img-fluid"></a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<a href="#"><img src="images/portfolio/to bee.png" class="img-fluid"></a>
-					</div>
-				</div>
-			
-		</div>
-<div class="blog">
-	<div class="container">
-		<span class="text-center">Blog</span>
-		<div class="row">
-			<div class="col-md-4 col-lg-4 col-sm-12">
-				<div class="card">
-					<div class="card-img">
-					<img src="images/posts/polit.jpg" class="img-fluid">
-					</div>
-					<div class="card-body">
-						<h4 class="card-title">Post Title</h4><p class="card-text">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-					<div class="card-footer">
-					<a href="" class="card-link">Read more</a>
-					</div>
-				</div>
-			</div>
-		<div class="col-md-4 col-lg-4 col-sm-12">
-			<div class="card">
-				<div class="card-img">
-				<img src="images/posts/images.jpg" class="img-fluid"></div>
-			<div class="card-body">
-				<h4 class="card-title">Post Title</h4>
-				<p class="card-text">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="card-footer">
-				<a href="" class="card-link">Read more</a>
-			</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-lg-4 col-sm-12">
-			<div class="card">
-				<div class="card-img">
-				<img src="images/posts/images.jpg" class="img-fluid"></div>
-			<div class="card-body">
-				<h4 class="card-title">Post Title</h4>
-				<p class="card-text">proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="card-footer">
-				<a href="" class="card-link">Read more</a>
-			</div>
-			</div>
-		</div>
-		</div>
-	</div>
-</div>
-<!-- Team section -->
-<div class="team">
-	<div class="container">
-		<span class="text-center">Our Team</span>
+			<h2 id="our-services">My Services</h2>
 			<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-12 item">
-				<img src="images/team-2.jpg" class="img-fluid" alt="team">
-				<div class="des">
-				Yaroslav
+				<div class="services col-sm-12 col-md-4">
+					<div class="sprite sprite_lg adaptiv_bg"></div>
+					<div class="services_title">
+						<h4>Адаптивність</h4>
+						<span>Будь яка робота по замовчуванні є адаптивоню версією до девайсів</span>
+					</div>
 				</div>
-				<span class="text-muted">Front End Developer</span>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 item">
-				<img src="images/team-3.jpg" class="img-fluid" alt="team">
-				<div class="des">
-				Oleksiy
+				<div class="services col-sm-12 col-md-4">
+					<div class="sprite sprite_lg link_bg"></div>
+					<div class="services_title">
+						<h4>Ланцюжок</h4>
+						<span>Думаю що з досвідом, в майбутньому, тут буде правильний опис</span>
+					</div>
 				</div>
-				<span class="text-muted">Front End Developer</span>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 item">
-				<img src="images/team-2.jpg" class="img-fluid" alt="team">
-				<div class="des">
-				Evelina
+				<div class="services col-sm-12 col-md-4">
+					<div class="sprite sprite_lg amin_bg"></div>
+					<div class="services_title">
+						<h4>Анімація</h4>
+						<span>Анімація за допомогою різних плагінів та за допомогою JQuery</span>
+					</div>
 				</div>
-				<span class="text-muted">Front End Developer</span>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 item">
-				<img src="images/team-3.jpg" class="img-fluid" alt="team">
-				<div class="des">
-				Galina
+				<div class="services col-sm-12 col-md-4">
+					<div class="sprite sprite_lg speed_bg"></div>
+					<div class="services_title">
+						<h4>Швидкодія</h4>
+						<span>Дотримання усіх правил верстки та оформлення, для максимальної швидкодії</span>
+					</div>
 				</div>
-				<span class="text-muted">Front End Developer</span>
+				<div class="services col-sm-12 col-md-4">
+					<div class="sprite sprite_lg connect_bg"></div>
+					<div class="services_title">
+						<h4>Підключення</h4>
+						<span>Допомога при підключенні вашої сторінки</span>
+					</div>
+				</div>
+				<div class="services col-sm-12 col-md-4">
+					<div class="sprite sprite_lg idea_bg"></div>
+					<div class="services_title">
+						<h4>Ідея</h4>
+						<span>Тут неодмінно з'явится ідея, якою мені захочеться з вами поділитися</span>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<!-- Contact form -->
-<div class="contact-form">
-	<div class="container">
-		<form>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<span>Get in Touch</span> 
+		<div class="container-fluid testimonials">
+			<div class="container testimonials_wrapp">
+				<h2 id="testimonials">Testimonials</h2>
+				<div class="row row_testimonials">
+					<div class="testimonials_text col-md-6">Only good results will always recommend the services of this Developer Web site</div>
+					<div class="col-md-3">	
+						<div class="sprite testimonials_sprite"></div>
+					</div>
+					<div class="col-md-3">
+						<span class="sprite_name">Juliya Brown</span>
+						<span class="strite_name_prof">Graphic Designer</span>
+					</div>
 				</div>
-				<div class="col-lg-8 col-md-8 col-sm-12 right">
-					<div class="form-group">
-						<input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
-					</div>
-					<div class="form-group">
-						<input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
-					</div>
-					<div class="form-group">
-						<textarea class="form-control form-control-lg">
-						</textarea>
-					</div>
-					<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+			</div>	
+		</div>
+		<div class="container">
+			<h2 id="portfolio">Portfolio</h2>
+			<div class="row">
+				<div class="portfolio_list col-md-12 col-lg-3">
+					<ul>
+						<li><a href="Project Futbolki/index.html">Modna Maika</a></li>
+						<li><a href="Project Kolesov/index.html">Project Kolesov</a></li>
+						<li><a href="Landing Page/index.html">Landing Page</a></li>
+						<li><a href="metal band/index.html">Metal Mania</a></li>
+						<li><a href="burger/index.html">Burger Task</a></li>
+						<li><a href="battery/index.html">Battery Task</a></li>
+					</ul>
+				</div>
+				<div class="portfolio_photo col-md-12 col-lg-9">
+					<a href="Project Futbolki/index.html"><img src="img/portfolio/futbolki.png" alt="">
+					</a>
+					<a href="Project Kolesov/index.html"><img src="img/portfolio/kolesov.png" alt="">
+					</a>				
+					<a href="Landing Page/index.html"><img src="img/portfolio/landing.png" alt="">
+					</a>			
+					<a href="metal band/index.html"><img src="img/portfolio/metal.png" alt="">
+					</a>				
+					<a href="burger/index.html"><img src="img/portfolio/burger.png" alt="">
+					</a>				
+					<a href="battery/index.html"><img src="img/portfolio/battery.png" alt="">
+					</a>
 				</div>
 			</div>
-		</form>
-	</div>
-</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script type="text/javascript" src='js/main.js'></script>
+		</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="js/scriptanim.js" type="text/javascript"></script>
 	</body>
 </html>
