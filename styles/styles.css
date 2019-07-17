@@ -1,26 +1,227 @@
-body{
-	background: url(../img/bg1.png);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+*{
+	font-family: 'Roboto', sans-serif;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.navMy-bar{
+	background-color: #a21af0;
+}
+.nav-link{
+	font-size: 20px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	margin: 5px 10px;
+}
+.header_hello{
+	padding-top: 50px;
+	text-align: center;
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)),
+	url(../img/bg-heder.png);
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+.header_hello span, h1{
+	padding: 20px 0;
+}
+.sp_top{
+	font-size: 47px;
+}
+h1{
+	font-size: 80px;
+}
+h4{
+	padding: 25px 0;
+}
+h2{
+	text-align: center;
+	padding: 100px 0;
+}
+.sp_bottom{
+	font-size: 2em;
+}
+.contact{
+	width: 150px;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 30px auto;
+}
+.bg-gradietn{
+	background: rgb(162,26,240);
+	background: linear-gradient(45deg,  rgba(162,26,240,1) 0%,rgba(255,0,114,1) 100%);
+}
+.contactAnim{
+	width: 300px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	display: none;
+	position: relative;
+	top: -88px;
+	cursor: pointer;
+	border-radius: 10px;
+	z-index: 9999;
+}
+.contactAnim a{
+	color: white;
+	padding: 20px;
+}
+.my_name{
+	font-size: 2em;
+}
+.about_me .about_me_text, .my-foto, .skill{
+	padding-top: 30px;
+}
+.skill{
+	text-align: center;
+}
+.progress{
+	margin: 20px 0;
+}
+.personal-data-wrap{
+	background-color: #dcdcde;
+}
+.sprite{
+	background-image: url(../img/sprite.png);
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.sprite:hover{
+	transform: scale(1.2);
+}
+.sprite_sm{
+	width: 90px;
+	height: 90px;
+	background-color: #374362;
+}
+.bg-tel{
+	background-position: 8px 14px;
+}
+.bg-addr{
+	background-position: -70px 14px;
+}
+.bg-email{
+	background-position: -166px 14px;
+}
+.personal-data{
+	text-align: center;
+	padding: 80px 0;
+}
+.personal_title{
+	padding-top: 20px;
+}
+.personal_info a{
+	color: black;
+}
+.sprite_lg{
+	width: 115px;
+	height: 115px;
+	background-color: #c414d9;
+}
+.adaptiv_bg{
+	background-position: -157px 24px;
+}
+.link_bg{
+	background-position: -259px 24px;
+}
+.amin_bg{
+	background-position: -367px 21px;
+}
+.speed_bg{
+	background-position: -478px 19px;
+}
+.connect_bg{
+	background-position: -596px 19px;
+}
+.idea_bg{
+	background-position: -712px 18px;
+}
+.services{
+	text-align: center;
+	padding-top: 50px;
+}
+.services_title:after{
+	content: "";
+	width: 200px;
+	height: 2px;
+	background: black;
+	bottom: -13px;
+	margin: 0 auto;
+	display: block;
+	margin: 15px auto;
+}
+.testimonials{
+	background-image: url(../img/bg-testimonials.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
-header{
-	border-bottom: 2px solid #2109f7;
+.testimonials_sprite{
+	width: 140px;
+	height: 140px;
+	background-position: -643px 156px;
+	border: 5px solid white;
 }
-a:hover{
-	transform: scale(1.1);
-	cursor: pointer;
+.testimonials_text{
+	color: white;
 }
-.row_header{
-align-items: center;
-text-align: center;
-color: #03a8ff;
+.testimonials_text:before{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/sprite.png);
+	background-position: -4px -124px;
+	position: absolute;
+	top: -35px;
+	left: -35px;
 }
-.personal_data{
-	display: flex;
-	flex-direction: column;
+.testimonials_text:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/sprite.png);
+	background-position: -4px -122px;
+	transform: rotate(180deg);
+	position: absolute;
+	right: -25px;
+}
+.row_testimonials{
 	align-items: center;
+	padding-bottom: 50px;
 }
-.list-group{
+.sprite_name{
+	font-size: 2em;
+	color: white;
+}
+.strite_name_prof{
+	color: #c714d5;
+}
+.portfolio_list li{
+	list-style: none;
+	padding: 15px 20px 15px 0px; 
+	font-size: 1.2em;
 	text-align: center;
-	align-items: center;
+}
+.portfolio_photo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-around;
+}
+.portfolio_photo a{
+	border: 2px solid #c714d5;
+	margin-top: 10px;
+}
+.portfolio_photo a:hover{
+	transform: scale(1.1);
 }
