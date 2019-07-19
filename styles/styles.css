@@ -216,6 +216,9 @@ h2{
 .container_portfolio{
 	background-color: #374362; 
 }
+.portfolio_list{
+	margin: 0 auto;
+}
 .portfolio_photo a{
 	border: 2px solid #c714d5;
 	margin-top: 10px;
