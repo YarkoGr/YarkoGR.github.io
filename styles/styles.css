@@ -193,7 +193,7 @@ h2{
 	background-position: -4px -122px;
 	transform: rotate(180deg);
 	position: absolute;
-	right: -25px;
+	right: 25px;
 }
 .row_testimonials{
 	align-items: center;
