@@ -51,6 +51,7 @@ h2{
 	cursor: pointer;
 	padding: 10px;
 	margin: 30px auto;
+	text-align: center;
 }
 .bg-gradietn{
 	background: rgb(162,26,240);
@@ -212,6 +213,9 @@ h2{
 	align-items: stretch;
 	align-content: space-around;
 }
+.container_portfolio{
+	background-color: #374362; 
+}
 .portfolio_photo a{
 	border: 2px solid #c714d5;
 	margin-top: 10px;
@@ -237,4 +241,11 @@ h2{
 }
 .activity{
 	font-size: 25px;
+}
+.container_footer{
+	min-height: 170px;
+	background-color: #374362;
+}
+.modal_feedback{
+	margin: 50px auto;
 }

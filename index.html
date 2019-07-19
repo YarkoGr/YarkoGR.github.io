@@ -32,7 +32,7 @@
 						<a class="nav-link" href="#blog">Blog</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
+						<a class="nav-link" href="#feedback">Feedback</a>
 					</li>
 				</ul>
 			</div>
@@ -44,13 +44,13 @@
 				<span class="sp_top col-lg-12">Hello, i am</span>
 				<h1 class="col-lg-12">Yaroslav Pasko</h1>
 				<span class="sp_bottom col-lg-12">I do not have enough experience yet, but ...</span>
-				<a  class="contact bg-gradietn">Contact me</a>	
+				<a href="#" class="contact bg-gradietn">Contact me</a>	
 			</div>
 			<div class="contactAnim bg-gradietn">
-			<a href="tel:+380993228010">+380993228010</a>
-			<a href="tel:+380965951044">+380965951044</a>
-			<a href="mailto:yaroslavpasko81@gmail.com">yaroslavpasko81@gmail.com</a>
-		</div>
+				<a href="tel:+380993228010">+380993228010</a>
+				<a href="tel:+380965951044">+380965951044</a>
+				<a href="mailto:yaroslavpasko81@gmail.com">yaroslavpasko81@gmail.com</a>
+			</div>
 		</div>
 	</header>
 		<div class="container about_me">
@@ -177,7 +177,7 @@
 				</div>
 			</div>	
 		</div>
-		<div class="container">
+		<div class="container container_portfolio">
 			<h2 id="portfolio">Portfolio</h2>
 			<div class="row">
 				<div class="portfolio_list ">
@@ -251,10 +251,53 @@
 				</div>
 			</div>
 		</div>
-		<div class="container">
+		<div class="container container_blog">
 			<h2 id="blog">Blog</h2>
 		</div>
-		<footer></footer>
+		<div class="container feedback bg-gradietn">
+			<h2 id="feedback">Feedback</h2>
+			<div class="row">
+				<div class="modal_feedback">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@gmail">Click Here</button>
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Заповніть форму</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-group">
+											<label for="recipient-name" class="col-form-label">Ваша електронна скринька</label>
+											<input type="email" class="form-control" id="recipient-name">
+										</div>
+										<div class="form-group">
+											<label for="message-text" class="col-form-label">Тут Ви можете задати запитання:</label>
+											<textarea class="form-control" id="message-text"></textarea>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+									<button type="button" class="btn btn-primary">Надіслати</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>	
+		</div>
+		<footer>
+			<div class="container-fluid container_footer">
+				<div class="row">
+					<a href="#" class="contact bg-gradietn">Contact me</a>
+					<span class="col-lg-12 text-center">@ Copyright 2019 All Rights Reserved.</span>
+				</div>
+			</div>
+		</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
