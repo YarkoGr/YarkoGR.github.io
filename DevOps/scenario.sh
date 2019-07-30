@@ -28,5 +28,8 @@ sudo mysql -e"SET GLOBAL innodb_file_per_table = 'ON';"
 
 sudo yum -y install wget
 sudo wget https://download.moodle.org/download.php/direct/stable37/moodle-latest-37.tgz
-sudo tar -zxvf moodle-latest-37.tgz -C /var/www/html
-sudo chown -R apache:apache /var/www/
+tar -zxvf moodle-latest-37.tgz
+sudo cp -R moodle /var/www/html
+sudo /usr/bin/php /var/www/html/moodle/admin/cli/install.php --wwwroot=http://192.168.56.20/moodle --dataroot=/var/moodledata --dbtype=mariadb --dbname=moodledb --dbuser=yarkogr --dbpass=2402 --fullname="Moodle" --adminpass=240202  --shortname="Moodle" --non-interactive --agree-license
+sudo chmod a+r /var/www/html/moodle/config.php
+sudo chcon -R -t httpd_sys_rw_content_t /var/moodledata
